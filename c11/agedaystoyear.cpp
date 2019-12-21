@@ -12,6 +12,7 @@ int main()
         year = d / 365.25;
         d = d - (year * 365.25);
         month = d / 30.5;
-        days = d - (int)(month * 30.5);
+        day = d - (int)(month * 30.5);
+        cout << " Year : " << year << ", Month : " << month << ", Day : " << day;
         return 0;
 }
